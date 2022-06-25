@@ -1,0 +1,55 @@
+import React from 'react'
+import Image from 'next/image'
+import { RiRadioButtonFill } from 'react-icons/ri'
+import Link from 'next/link'
+
+const firstWebsite = () => {
+  return (
+    <div className='w-full'>
+        <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
+            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
+            <Image className='absolute z-1' layout='fill' objectFit='cover' src='https://i.postimg.cc/pLbFXcQM/Portfolio-Site.png' alt='Portfolio Site'/>
+            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
+                <h2 className='py-2'>Portfolio Site</h2>
+                <h3>React / Tailwindcss</h3>
+            </div>
+        </div>
+        <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
+            <div className='col-span-4'>
+                <p className='text-[#5651e5] text-xl uppercase'>Project</p>
+                <h2>Overview</h2>
+                <p>
+                    This website was created using React and Tailwindcss. This was my first time diving into React as 
+                    I knew it was a very important language to learn. I learned so much about React including how it offers 
+                    functions that let you dive into other languages and incorporate them straight into the scripts. 
+                    I also discovered how to change light modes within the site itself using reacts if statements. This was also 
+                    the first time that I used Tailwindcss and I must say I am a huge fan. I do still think knowing basic CSS is 
+                    essential in a developer's career but I do find Tailwindcss to be a much more efficient and smooth way of 
+                    styling. This site that you are viewing now was based off of this portfolio site in terms of language and 
+                    formatting. This website is ran through Github but published on Netlify. You can also find it on github using 
+                    the buttons below.
+                </p>
+                <a href='https://isaaclockwood.netlify.app/' target='_blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href='https://github.com/Lockwood-02/PortfolioWebsite' target='_blank'><button className='px-8 py-2 mt-4'>Code</button></a>
+            </div>
+            <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+                <div className='p-2'>
+                    <p className='text-center font-bold pb-2'>Technologies</p>
+                    <div className='grid grid-cols-3 md:grid-cols-1'>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />React</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />Tailwindcss</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />Netlify</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />Github</p>
+
+                    </div>
+                </div>
+            </div>
+            <Link href='/#projects'>
+                <p className='underline cursor-pointer hover:text-[#5651e5]'>Back</p>
+            </Link>
+        </div>
+    </div>
+  )
+}
+
+export default firstWebsite
