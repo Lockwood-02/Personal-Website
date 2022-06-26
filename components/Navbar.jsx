@@ -25,6 +25,7 @@ const Navbar = () => {
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
+      setShadow(false)
     } else {
       setNavBg("#ecf0f3");
       setLinkColor("#1f2937");
