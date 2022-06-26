@@ -27,8 +27,8 @@ const firstWebsite = () => {
                     JavaScript and how it can be utilized to save information. I also learned how to use 
                     media query in CSS to make the website fully responsive.
                 </p>
-                <a href='http://isaac-lockwood-demo.s3-website-us-east-1.amazonaws.com/' target='_blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
-                <a href='https://github.com/Lockwood-02' target='_blank'><button className='px-8 py-2 mt-4'>Code</button></a>
+                <a href='http://isaac-lockwood-demo.s3-website-us-east-1.amazonaws.com/' target='_blank' rel="noreferrer"><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href='https://github.com/Lockwood-02' target='_blank' rel="noreferrer"><button className='px-8 py-2 mt-4'>Code</button></a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>

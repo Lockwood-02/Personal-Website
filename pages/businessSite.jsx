@@ -25,8 +25,8 @@ const firstWebsite = () => {
                     CSS and how to add animations using different tactics all without JavaScript. Now it can be used as a template for many other 
                     businesses. You can visit the site using the buttons below.
                 </p>
-                <a href='http://isaac-lockwood-website.s3-website-us-east-1.amazonaws.com/' target='_blank'><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
-                <a href='https://github.com/Lockwood-02/BusinessSite' target='_blank'><button className='px-8 py-2 mt-4'>Code</button></a>
+                <a href='http://isaac-lockwood-website.s3-website-us-east-1.amazonaws.com/' target='_blank' rel="noreferrer"><button className='px-8 py-2 mt-4 mr-8'>Demo</button></a>
+                <a href='https://github.com/Lockwood-02/BusinessSite' target='_blank' rel="noreferrer"><button className='px-8 py-2 mt-4'>Code</button></a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>
