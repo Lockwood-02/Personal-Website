@@ -28,6 +28,6 @@ html{
   }
 
   button{
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#FFA500] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#FFA500] to-[#FF4E00] text-white
   }
 }
