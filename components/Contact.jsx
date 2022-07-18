@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+        <p className="uppercase text-xl tracking-widest text-[#FFA500]">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
@@ -38,22 +38,22 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                 <a href="https://www.linkedin.com/in/isaac-lockwood/" target='_blank' rel="noreferrer">
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]'>
                                 <FaLinkedinIn />
                         </div>
                     </a>
                     <a href="https://github.com/Lockwood-02" target='_blank' rel="noreferrer">
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]'>
                                 <BsGithub />
                         </div>
                     </a>
                     <a href="mailto:isaaclockwood618@gmail.com">
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]'>
                                 <FiMail />
                         </div>
                     </a>
                     <a href="https://i.postimg.cc/1RrLHrGK/Isaac-Lockwood-Resume-1.png" target='_blank' rel="noreferrer">
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]'>
                                 <CgFileDocument />
                         </div>
                     </a>
@@ -112,7 +112,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
             <Link href='/'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-100">
-                    <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30}/>
+                    <HiOutlineChevronDoubleUp className="text-[#FFA500]" size={30}/>
                 </div>
             </Link>
         </div>

@@ -16,7 +16,7 @@ const firstWebsite = () => {
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
-                <p className='text-[#5651e5] text-xl uppercase'>Project</p>
+                <p className='text-[#FFA500] text-xl uppercase'>Project</p>
                 <h2>Overview</h2>
                 <p>
                     This website was created using HTML and CSS and was built for the purpose of portraying a business such as a freelancer.
@@ -40,7 +40,7 @@ const firstWebsite = () => {
                 </div>
             </div>
             <Link href='/#projects'>
-                <p className='underline cursor-pointer hover:text-[#5651e5]'>Back</p>
+                <p className='underline cursor-pointer hover:text-[#FFA500]'>Back</p>
             </Link>
         </div>
     </div>

@@ -5,7 +5,7 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
+                <p className='uppercase text-xl tracking-widest text-[#FFA500]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>I am currently a student at Western Kentucky University working 
                 towards my Masters in Computer Science. I have loved coding ever since I was in middle school and it has 
@@ -23,7 +23,7 @@ const About = () => {
                 designing and creating websites that have multiple functionalities or serve creative purposes. Being able to 
                 create something that anyone can simply search and view always interested me.</p>
 
-                <p className='py-2 text-gray-600'> If you want more information about who I am, <a href="https://i.postimg.cc/1RrLHrGK/Isaac-Lockwood-Resume-1.png" target='_blank' rel="noreferrer" className='underline hover:text-[#5651e5]'>here's my resume.</a>
+                <p className='py-2 text-gray-600'> If you want more information about who I am, <a href="https://i.postimg.cc/1RrLHrGK/Isaac-Lockwood-Resume-1.png" target='_blank' rel="noreferrer" className='underline hover:text-[#FFA500]'>here's my resume.</a>
                 </p>
             </div>
             <div className='w-full h-auto m-auto border-2 border-indigo-500 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-[102%] ease-in duration-100'>

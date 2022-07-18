@@ -69,27 +69,27 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:text-[#5651e5]">
+              <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:text-[#5651e5]">
+              <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:text-[#5651e5]">
+              <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:text-[#5651e5]">
+              <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:text-[#5651e5]">
+              <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 Contact
               </li>
             </Link>
@@ -178,17 +178,17 @@ const Navbar = () => {
                   href="https://www.linkedin.com/in/isaac-lockwood/"
                   target="_blank" rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a href="https://github.com/Lockwood-02" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]">
                     <BsGithub />
                   </div>
                 </a>
                 <a href="mailto:isaaclockwood618@gmail.com">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]">
                     <FiMail />
                   </div>
                 </a>
@@ -196,7 +196,7 @@ const Navbar = () => {
                   href="https://i.postimg.cc/1RrLHrGK/Isaac-Lockwood-Resume-1.png"
                   target="_blank" rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#5651e5]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-100 text-[#FFA500]">
                     <CgFileDocument />
                   </div>
                 </a>
