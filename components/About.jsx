@@ -26,7 +26,7 @@ const About = () => {
                 <p className='py-2 text-gray-600'> If you want more information about who I am, <a href="https://i.postimg.cc/1RrLHrGK/Isaac-Lockwood-Resume-1.png" target='_blank' rel="noreferrer" className='underline hover:text-[#FFA500]'>here's my resume.</a>
                 </p>
             </div>
-            <div className='w-full h-auto m-auto border-2 border-indigo-500 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-[102%] ease-in duration-100'>
+            <div className='w-full h-auto m-auto border-2 border-[#FFA500] shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-[102%] ease-in duration-100'>
                 <img className='rounded-xl' src='https://i.postimg.cc/VkBDLPyX/me.jpg' alt='Isaac'/>
             </div>
         </div>
