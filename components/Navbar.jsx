@@ -60,7 +60,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="https://i.postimg.cc/VNkQZ6rJ/iconNB.png"
+            src="https://i.postimg.cc/282YxKrw/icon-NBOrange.png"
             alt="LOGO"
             width="125"
             height="125"
@@ -122,7 +122,7 @@ const Navbar = () => {
               <Link href="/">
                 <Image
                   className="cursor-pointer"
-                  src="https://i.postimg.cc/x8J5Qvfn/icon-Copy.png"
+                  src="https://i.postimg.cc/Qdzr2KBK/icon-Orange.png"
                   alt="LOGO"
                   width="85"
                   height="85"
