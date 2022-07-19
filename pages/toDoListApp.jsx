@@ -31,9 +31,9 @@ const toDoListApp = () => {
                 <div className='p-2'>
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />HTML</p>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />JavaScript</p>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />AWS</p>
+                        <p className='text-gray-600 dark:text-[#FFFFFF] dark:text-opacity-60 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />HTML</p>
+                        <p className='text-gray-600 dark:text-[#FFFFFF] dark:text-opacity-60 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />JavaScript</p>
+                        <p className='text-gray-600 dark:text-[#FFFFFF] dark:text-opacity-60 py-2 flex items-center'><RiRadioButtonFill className='pr-1' />AWS</p>
 
                     </div>
                 </div>
