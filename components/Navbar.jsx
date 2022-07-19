@@ -7,30 +7,33 @@ import { FiMail } from "react-icons/fi";
 import { CgFileDocument } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { useRouter } from "next/router";
+import { MyApp } from "../pages/_app";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState(null);
   const [linkColor, setLinkColor] = useState("#1f2937");
 
   const router = useRouter();
 
-  useEffect(() => {
-    if (
-      router.asPath === "/firstWebsite" ||
-      router.asPath === "/toDoListApp" ||
-      router.asPath === "/businessSite" ||
-      router.asPath === "/portfolioSite"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#ecf0f3");
-      setShadow(false)
-    } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
+  // Controls the color of the navbar
+
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/firstWebsite" ||
+  //     router.asPath === "/toDoListApp" ||
+  //     router.asPath === "/businessSite" ||
+  //     router.asPath === "/portfolioSite"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#ecf0f3");
+  //     setShadow(false)
+  //   } else {
+  //     setNavBg("#ecf0f3");
+  //     setLinkColor("#1f2937");
+  //   }
+  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -49,11 +52,11 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
+      // style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-20 shadow-xl dark:shadow-[#000] z-[100] bg-[#ecf0f3] dark:bg-[#121212]"
+          : "fixed w-full h-20 z-[100] bg-[#ecf0f3] dark:bg-[#121212]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -67,7 +70,9 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul 
+          //style={{ color: `${linkColor}` }} 
+          className="hidden md:flex text-[#1f2937] dark:text-[#FFFFFF]">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:text-[#FFA500]">
                 Home
@@ -113,7 +118,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed right-0 top-0 w[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#121212] p-10 ease-in duration-500"
               : "fixed right-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -130,7 +135,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 dark:shadow-[#000] p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
