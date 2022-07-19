@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
     <button
       type="button"
       onClick={handleThemeSwitch}
-      className="fixed z-100 right-2 top-24 bg-[#FFA500] text-lg p-1 rounded-md"
+      className="fixed z-[3] right-2 top-24 bg-[#FFA500] text-lg p-1 rounded-md"
     >
       {theme === 'dark' ? '🌑' : '☀️'}
     </button>
