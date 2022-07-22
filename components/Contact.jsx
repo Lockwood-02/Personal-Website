@@ -14,11 +14,11 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="">
 
           {/* left */}
 
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-[#000] rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-3 w-full h-full shadow-xl shadow-gray-400 dark:shadow-[#000] rounded-xl p-4 flex justify-center items-center">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -28,7 +28,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Isaac Lockwood</h2>
-                <p>Front-End Developer</p>
+                <p>Software Developer</p>
                 <p className="py-4">
                   I am available for full-time positions. Contact me and let's
                   talk.
@@ -58,13 +58,14 @@ const Contact = () => {
                         </div>
                     </a>
                 </div>
+                <a href="mailto:isaaclockwood618@gmail.com"><button className="hover:scale-105 ease-in duration-100 w-full p-4 text-gray-100 mt-4">Send Email</button></a>
               </div>
             </div>
           </div>
 
           {/* right */}
 
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-[#000] rounded-xl lg:p-4">
+          {/* <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-[#000] rounded-xl lg:p-4">
             <div className="p-4">
 
                 <form action="">
@@ -105,9 +106,10 @@ const Contact = () => {
                     </div>
                     <button className="w-full p-4 text-gray-100 mt-4">Send Message</button>
                 </form>
-
             </div>
-          </div>
+          </div> */}
+
+
         </div>
         <div className="flex justify-center py-12">
             <Link href='/'>
